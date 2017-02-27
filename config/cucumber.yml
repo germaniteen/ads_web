@@ -1,0 +1,5 @@
+<% common = "--tags ~@wip" %>
+
+default: <%= common %> features
+html_report: <%= common %> --format html --out=features_report.html features
+browser_stack: <%= common %> BROWSERSTACK=YES

@@ -1,0 +1,11 @@
+urls:
+  base: https://admin-advertisement.herokuapp.com/advertisements
+error_msg:
+  invalid_price: 'Invalid price(Valid currency in euros: 12,12)'
+  invalid_ad_name: 'Alphabets and numerals only'
+  max_length_reached: 'Max length reached'
+  blank_ad_name: 'This is required'
+ad_info:
+  invalid_price:
+    alphabetical: johncena
+  long_ad_name: Donaudampfschifffahrtselektrizitatenhauptbetriebswerkbauunterbeamtengesell
